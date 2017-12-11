@@ -1,0 +1,7 @@
+drw:
+  version: 1.x
+  js:
+    js/drw/dist/bundle.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal

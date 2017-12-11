@@ -1,0 +1,8 @@
+
+react.controller:
+  path: '/react'
+  defaults:
+    _controller: '\Drupal\drw\Controller\ReactController::content'
+    _title: "React controller"
+  requirements:
+    _permission: 'access content'
