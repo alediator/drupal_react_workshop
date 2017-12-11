@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains drw.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function drw_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the drw module.
+    case 'help.page.drw':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('drw example') . '</p>';
+      return $output;
+
+    default:
+  }
+}

@@ -1,0 +1,22 @@
+uuid: 012820a6-91e0-48b8-9cc7-071787734727
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.album
+  module:
+    - text
+id: node.album.body
+field_name: body
+entity_type: node
+bundle: album
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary
